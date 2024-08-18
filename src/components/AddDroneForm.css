@@ -1,0 +1,47 @@
+.drone-form {
+    margin-bottom: 30px;
+  }
+  
+  .drone-form h3 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .drone-form input,
+  .drone-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .drone-form label {
+    font-size: 16px;
+    color: #495057;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .drone-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .drone-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .drone-item {
+      width: calc(50% - 20px);
+    }
+  }

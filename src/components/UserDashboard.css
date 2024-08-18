@@ -1,0 +1,84 @@
+/* UserDashboard.css */
+
+.user-dashboard {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .user-dashboard h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-dashboard .booking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-dashboard .booking-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .user-dashboard .booking-item h3 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .user-dashboard .booking-item p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .user-dashboard .booking-item .actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .user-dashboard .booking-item .action-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .user-dashboard .booking-item .action-button.cancel {
+    background-color: #dc3545;
+  }
+  
+  .user-dashboard .booking-item .action-button:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .user-dashboard .booking-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .user-dashboard .booking-item .actions {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .user-dashboard .booking-item .action-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

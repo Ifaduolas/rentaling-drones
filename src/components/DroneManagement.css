@@ -1,0 +1,208 @@
+/* DroneManagement.css */
+
+.drone-management {
+    padding: 20px;
+  }
+  
+  .add-drone, .edit-drone {
+    margin-bottom: 20px;
+  }
+  
+  .add-drone input, .edit-drone input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-drone button, .edit-drone button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-drone button:hover, .edit-drone button:hover {
+    background-color: #0056b3;
+  }
+  
+  .drone-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .drone-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(33% - 20px);
+  }
+  
+  .drone-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .drone-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .drone-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .drone-item button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .drone-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .drone-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .drone-item {
+      width: 100%;
+    }
+  }
+
+  
+.drone-management {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .drone-management h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  .drone-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .drone-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .drone-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .drone-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .drone-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .drone-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .drone-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .drone-actions button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-drone-button {
+    background-color: #28a745;
+  }
+  
+  .edit-drone-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-drone-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-drone-button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .drone-management {
+      padding: 15px;
+    }
+  
+    .drone-item {
+      padding: 15px;
+    }
+  
+    .drone-item h3 {
+      font-size: 20px;
+    }
+  
+    .drone-item p {
+      font-size: 14px;
+    }
+  
+    .drone-actions button {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+
+
+  

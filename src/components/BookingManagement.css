@@ -1,0 +1,75 @@
+/* BookingManagement.css */
+
+/* BookingManagement.css */
+
+/* BookingManagement.css */
+
+.booking-management {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.booking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.booking-card:hover {
+  transform: scale(1.02);
+}
+
+.booking-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.booking-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .booking-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .delete-button {
+    margin-top: 15px;
+    align-self: stretch;
+    width: 100%;
+  }
+}

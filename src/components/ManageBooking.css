@@ -1,0 +1,72 @@
+/* BookingManagement.css */
+
+.booking-management {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .booking-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .booking-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .booking-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .booking-info {
+    margin-bottom: 20px;
+  }
+  
+  .booking-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .status-select {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .booking-card {
+      flex-direction: column;
+    }
+  
+    .booking-actions {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .delete-button, .status-select {
+      width: 100%;
+    }
+  }
+  

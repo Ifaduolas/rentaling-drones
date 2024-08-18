@@ -1,0 +1,126 @@
+
+
+  /*.drone-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa
+  }
+  
+  .drone-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .drone-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .details-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }*/
+
+  /* DroneCard.css */
+
+/* DroneList.css */
+
+.drone-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.drone-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.drone-item:hover {
+  transform: scale(1.05);
+}
+
+.drone-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #007bff;
+}
+
+.drone-item h3 {
+  font-size: 20px;
+  margin: 15px;
+  color: #333;
+}
+
+.drone-item p {
+  font-size: 14px;
+  margin: 0 15px 15px;
+  color: #666;
+}
+
+.details-button {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 15px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .drone-item h3 {
+    font-size: 18px;
+  }
+
+  .drone-item p {
+    font-size: 13px;
+  }
+
+  .details-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .drone-item h3 {
+    font-size: 16px;
+  }
+
+  .drone-item p {
+    font-size: 12px;
+  }
+
+  .details-button {
+    font-size: 12px;
+  }
+}
